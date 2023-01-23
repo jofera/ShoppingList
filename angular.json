@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ShopingList": {
+    "ShoppingList": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/shoping-list",
+            "outputPath": "dist/shopping-list",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ShopingList:build:production"
+              "browserTarget": "ShoppingList:build:production"
             },
             "development": {
-              "browserTarget": "ShopingList:build:development"
+              "browserTarget": "ShoppingList:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ShopingList:build"
+            "browserTarget": "ShoppingList:build"
           }
         },
         "test": {
